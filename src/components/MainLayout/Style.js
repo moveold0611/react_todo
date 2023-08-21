@@ -5,6 +5,7 @@ export const SLayout = css`
     border: 1px solid #dbdbdb;
     border-radius: 20px;
     transform: translate(-50%, -50%);
+    padding: 10px 0px 10px 0px;
     position: absolute;
     display: flex;
     top: 45%;

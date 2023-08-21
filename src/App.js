@@ -5,6 +5,7 @@ import * as S from "./styles/common";
 import MainSidebar from "./components/MainSidebar/MainSidebar";
 import { Route, Routes } from "react-router-dom";
 import Today from "./pages/Today/Today";
+import Calendar from "./pages/Calendar/Calendar";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/today" element={<Today />} />
         <Route path="/upcoming" />
-        <Route path="/calendar" />
+        <Route path="/calendar" element={<Calendar />}/>
         <Route path="/stickywall" />
       </Routes>
     </MainLayout>
